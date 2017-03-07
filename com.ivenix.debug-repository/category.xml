@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature
+		url="features/com.ivenix.debug.gdbjtag.jlink-feature_1.0.0.qualifier.jar"
+		id="com.ivenix.debug.gdbjtag.jlink"
+		version="1.0.0.qualifier">
+		<category name="com.ivenix.category" />
+	</feature>
+	<feature
+		url="features/com.ivenix.debug.gdbjtag.qemu-feature_1.0.0.qualifier.jar"
+		id="com.ivenix.debug.gdbjtag.qemu"
+		version="1.0.0.qualifier">
+		<category name="com.ivenix.category" />
+	</feature>
+	<category-def
+		name="com.ivenix.category"
+		label="ARM Eclipse Debug Tools" />
+</site>
