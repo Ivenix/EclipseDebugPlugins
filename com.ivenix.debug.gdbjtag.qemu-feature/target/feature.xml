@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+	id="com.ivenix.debug.gdbjtag.qemu"
+	label="%featureName"
+	version="1.0.0.201703071513"
+	provider-name="%providerName"
+	plugin="com.ivenix.debug.gdbjtag.qemu">
+
+	<description>
+		%description
+	</description>
+
+	<copyright>
+		%copyright
+	</copyright>
+
+	<license url="%licenseURL">
+		%license
+	</license>
+
+	<plugin
+		id="com.ivenix.debug.gdbjtag.qemu"
+		download-size="106"
+		install-size="202"
+		version="1.0.0.201703071513"
+		unpack="false" />
+
+	<plugin
+		id="com.ivenix.debug.gdbjtag.restart"
+		download-size="9"
+		install-size="11"
+		version="1.0.0.201703071513"
+		unpack="false" />
+
+	<plugin
+		id="com.ivenix.debug.core"
+		download-size="59"
+		install-size="108"
+		version="1.0.0.201703071513"
+		unpack="false" />
+
+</feature>
